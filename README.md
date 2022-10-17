@@ -7,7 +7,7 @@ Firstly, we need to create an parent element whose height is 100% of the screen.
 
 **This column element is going to be our parent element.**
 
-  Inside it, we create a \<div\> element with the classes *.d-flex* and *.flex-column* which are defined in bootstrap 4.3.
+  Inside it, we create a \<div\> element with the classes *.d-flex* and *.flex-column*.
 1) *.d-flex* initiates the flex functionality
 2) *.flex-column* means the the autofill will be vertical
 
