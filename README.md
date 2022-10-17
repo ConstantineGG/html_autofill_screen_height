@@ -1,7 +1,7 @@
 # autofill_screen_height
 Achieve a page to automatically fill the entire screen height. Must work for variable content height, whether that happens to be shorter or a lot longer than the screen height. We can do this by using the bootstrap **flex** classes.
 
-Firstly, we need to create an parent element whose height is 100% of the screen. In this example, we achieve this by:
+Firstly, we need to create a parent element whose height is 100% of the screen. In this example, we achieve this by:
 1) giving the \<html\> and \<body\> elements "height: 100%"
 2) creating a bootstrap structure (container -> row -> column) where each element is given 100% of it's parent's height, which results in the final column element to take up 100% of the screen.
 
