@@ -3,7 +3,8 @@ Achieve a page to automatically fill the entire screen height. Must work for var
 
 Firstly, we need to create a parent element whose height is 100% of the screen. In this example, we achieve this by:
 1) giving the \<html\> and \<body\> elements "height: 100%"
-2) creating a bootstrap structure (container -> row -> column) where each element is given 100% of it's parent's height, which results in the final column element to take up 100% of the screen.
+2) creating a bootstrap structure (container -> row -> column) where each element is given 100% of it's parent's height.
+The result is that the final column element takes up 100% of the screen.
 
 **This column element is going to be our parent element.**
 
