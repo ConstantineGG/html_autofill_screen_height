@@ -4,7 +4,7 @@ Must work for variable content height, whether that happens to be shorter or a l
 
 We can do this by using the bootstrap **flex** classes.
 
--------------------------------------------------------
+
 
 Firstly, we need to create an parent element whose height is 100% of the screen. In this example, we achieve this by:
 1) giving the \<html\> and \<body\> elements "height: 100%"
